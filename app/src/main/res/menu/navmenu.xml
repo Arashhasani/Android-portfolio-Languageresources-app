@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Contact Us">
+
+
+        <menu>
+            <group android:checkableBehavior="none">
+            <item
+                android:id="@+id/about"
+                android:title="About Us" />
+            <item
+                android:id="@+id/contact"
+                android:title="Contact Us" />
+
+            </group>
+        </menu>
+
+
+    </item>
+
+
+    <item android:title="">
+
+        <menu>
+
+            <group android:checkableBehavior="none">
+            <item
+                android:id="@+id/exit"
+                android:title="Exit" />
+            </group>
+
+        </menu>
+
+
+    </item>
+
+
+</menu>
